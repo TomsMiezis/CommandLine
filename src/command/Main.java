@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 	private static Boolean cont = true;
 	public static void main(String[] args) {
-		
+		System.out.print("> ");
 		Scanner scan = new Scanner(System.in);
 		while (cont) {
 			String command = scan.nextLine();
